@@ -47,6 +47,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9510D9451E73A27B00213085 /* executable */ = {isa = PBXFileReference; lastKnownFileType = folder; path = executable; sourceTree = SOURCE_ROOT; };
 		9595B8251E51427800D1245B /* Boids */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Boids; sourceTree = BUILT_PRODUCTS_DIR; };
 		9595B8281E51427800D1245B /* Boids.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Boids.cpp; sourceTree = "<group>"; };
 		9595B82F1E51430500D1245B /* imgui_impl_glut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_impl_glut.cpp; sourceTree = "<group>"; };
@@ -111,6 +112,7 @@
 		9595B8271E51427800D1245B /* Boids */ = {
 			isa = PBXGroup;
 			children = (
+				9510D9451E73A27B00213085 /* executable */,
 				9595B85D1E51433B00D1245B /* lib */,
 				9595B85C1E51432D00D1245B /* include */,
 				9595B82F1E51430500D1245B /* imgui_impl_glut.cpp */,
@@ -365,6 +367,7 @@
 				9595B82E1E51427800D1245B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
